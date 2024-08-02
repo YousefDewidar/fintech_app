@@ -1,9 +1,9 @@
-import 'package:device_preview/device_preview.dart';
 import 'package:fintech_app/core/view/all_views.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(DevicePreview(builder: (context) =>  const FintechApp()));
+  runApp(const FintechApp());
+  // runApp(DevicePreview(builder: (context) =>  const FintechApp()));
 }
 
 class FintechApp extends StatelessWidget {

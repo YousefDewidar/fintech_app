@@ -16,17 +16,17 @@ class WalletListView extends StatelessWidget {
       create: (context) => WalletCubit(),
       child: Padding(
         padding: const EdgeInsets.only(left: 20.0),
-        child: Row(
-          mainAxisSize: MainAxisSize.max,
-          children: [
-            const AddWalletCard(),
-            const SpaceH(10),
-            BlocBuilder<WalletCubit, WalletState>(
-              builder: (context, state) {
-                return Expanded(
-                  child: SizedBox(
-                    height: 190,
-                    child: ListView.builder(
+        child: SizedBox(
+          height: 190,
+          child: Row(
+            mainAxisSize: MainAxisSize.max,
+            children: [
+              const AddWalletCard(),
+              const SpaceH(10),
+              Flexible(
+                child: BlocBuilder<WalletCubit, WalletState>(
+                  builder: (context, state) {
+                    return ListView.builder(
                       itemCount: DataLists.walletList.length,
                       scrollDirection: Axis.horizontal,
                       itemBuilder: (context, index) {
@@ -34,12 +34,12 @@ class WalletListView extends StatelessWidget {
                           myWallet: DataLists.walletList[index],
                         );
                       },
-                    ),
-                  ),
-                );
-              },
-            ),
-          ],
+                    );
+                  },
+                ),
+              ),
+            ],
+          ),
         ),
       ),
     );

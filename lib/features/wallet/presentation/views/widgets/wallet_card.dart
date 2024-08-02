@@ -11,21 +11,19 @@ class WalletCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Expanded(
-      child: Container(
-        margin: const EdgeInsets.only(right: 15),
-        height: 190,
-        decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(16), color: myWallet.color),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            TotalMoney(myWallet: myWallet),
-            const AcountNum(),
-            const Spacer(),
-            ClientInfo(myWallet: myWallet),
-          ],
-        ),
+    return Container(
+      margin: const EdgeInsets.only(right: 15),
+      height: 190,
+      decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(16), color: myWallet.color),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          TotalMoney(myWallet: myWallet),
+          const AcountNum(),
+          const Spacer(),
+          ClientInfo(myWallet: myWallet),
+        ],
       ),
     );
   }
@@ -43,6 +41,7 @@ class TotalMoney extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.all(12.0),
       child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
@@ -57,8 +56,8 @@ class TotalMoney extends StatelessWidget {
                       color: Colors.black)),
             ],
           ),
-          const SpaceH(28),
-          Image.asset('assets/visa-512.png', width: 80, height: 37),
+          const SpaceH(35),
+          Image.asset('assets/visa-512.png', width:55, height: 37),
         ],
       ),
     );
