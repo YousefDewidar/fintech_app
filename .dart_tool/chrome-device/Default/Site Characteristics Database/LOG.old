@@ -1,0 +1,8 @@
+<<<<<<< Updated upstream
+2024/07/31-02:38:04.896 2a0c Creating DB C:\Users\vecto\AppData\Local\Temp\flutter_tools.24814283\flutter_tools_chrome_device.143171fb\Default\Site Characteristics Database since it was missing.
+2024/07/31-02:38:04.928 2a0c Reusing MANIFEST C:\Users\vecto\AppData\Local\Temp\flutter_tools.24814283\flutter_tools_chrome_device.143171fb\Default\Site Characteristics Database/MANIFEST-000001
+=======
+2024/08/01-19:23:46.330 3534 Reusing MANIFEST C:\Users\vecto\AppData\Local\Temp\flutter_tools.c74d2552\flutter_tools_chrome_device.61a696d7\Default\Site Characteristics Database/MANIFEST-000001
+2024/08/01-19:23:46.331 3534 Recovering log #3
+2024/08/01-19:23:46.331 3534 Reusing old log C:\Users\vecto\AppData\Local\Temp\flutter_tools.c74d2552\flutter_tools_chrome_device.61a696d7\Default\Site Characteristics Database/000003.log 
+>>>>>>> Stashed changes

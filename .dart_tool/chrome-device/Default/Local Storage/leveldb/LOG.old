@@ -1,0 +1,8 @@
+<<<<<<< Updated upstream
+2024/07/31-02:38:04.964 175c Creating DB C:\Users\vecto\AppData\Local\Temp\flutter_tools.24814283\flutter_tools_chrome_device.143171fb\Default\Local Storage\leveldb since it was missing.
+2024/07/31-02:38:04.979 175c Reusing MANIFEST C:\Users\vecto\AppData\Local\Temp\flutter_tools.24814283\flutter_tools_chrome_device.143171fb\Default\Local Storage\leveldb/MANIFEST-000001
+=======
+2024/08/01-19:23:46.481 3efc Reusing MANIFEST C:\Users\vecto\AppData\Local\Temp\flutter_tools.c74d2552\flutter_tools_chrome_device.61a696d7\Default\Local Storage\leveldb/MANIFEST-000001
+2024/08/01-19:23:46.484 3efc Recovering log #3
+2024/08/01-19:23:46.488 3efc Reusing old log C:\Users\vecto\AppData\Local\Temp\flutter_tools.c74d2552\flutter_tools_chrome_device.61a696d7\Default\Local Storage\leveldb/000003.log 
+>>>>>>> Stashed changes

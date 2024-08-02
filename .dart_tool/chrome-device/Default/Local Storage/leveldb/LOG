@@ -1,0 +1,9 @@
+<<<<<<< Updated upstream
+2024/07/31-04:05:11.427 1e28 Reusing MANIFEST C:\Users\vecto\AppData\Local\Temp\flutter_tools.bed1a8cd\flutter_tools_chrome_device.86542d8b\Default\Local Storage\leveldb/MANIFEST-000001
+2024/07/31-04:05:11.434 1e28 Recovering log #3
+2024/07/31-04:05:11.439 1e28 Reusing old log C:\Users\vecto\AppData\Local\Temp\flutter_tools.bed1a8cd\flutter_tools_chrome_device.86542d8b\Default\Local Storage\leveldb/000003.log 
+=======
+2024/08/02-20:29:57.558 3df0 Reusing MANIFEST C:\Users\vecto\AppData\Local\Temp\flutter_tools.49549708\flutter_tools_chrome_device.f1014313\Default\Local Storage\leveldb/MANIFEST-000001
+2024/08/02-20:29:57.563 3df0 Recovering log #3
+2024/08/02-20:29:57.564 3df0 Reusing old log C:\Users\vecto\AppData\Local\Temp\flutter_tools.49549708\flutter_tools_chrome_device.f1014313\Default\Local Storage\leveldb/000003.log 
+>>>>>>> Stashed changes
