@@ -1,4 +1,5 @@
 import 'package:fintech_app/features/home/presentation/views/widgets/trans_list_view.dart';
+import 'package:fintech_app/features/wallet/presentation/views/widgets/wallet_list_view.dart';
 import 'package:flutter/material.dart';
 
 class WalletViewBody extends StatelessWidget {
@@ -8,7 +9,7 @@ class WalletViewBody extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Column(
       children: [
-        // WalletListView(),
+        WalletListView(),
         TransactionTitle(),
         Padding(
           padding: EdgeInsets.symmetric(horizontal: 20.0),

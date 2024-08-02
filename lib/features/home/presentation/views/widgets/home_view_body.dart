@@ -25,7 +25,7 @@ class HomeViewBody extends StatelessWidget {
         SpaceV(12),
         EarnListView(),
         SpaceV(12),
-        TextWithSeeAll(text: "Transaction"),
+        TextWithSeeAll(text: "Transactions"),
         SpaceV(12),
         TransactionListView(),
       ],

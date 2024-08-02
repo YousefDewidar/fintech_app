@@ -25,7 +25,10 @@ class _AllViewsState extends State<AllViews> {
               curInd = value;
               setState(() {});
             },
-            children: const [HomeView(), WalletView()],
+            children: const [
+              HomeView(),
+              WalletView(),
+            ],
           ),
         ),
         bottomNavigationBar: NavigationBar(
