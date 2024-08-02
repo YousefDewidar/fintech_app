@@ -1,8 +1,9 @@
 <<<<<<< Updated upstream
-2024/07/31-02:38:05.310 1234 Creating DB C:\Users\vecto\AppData\Local\Temp\flutter_tools.24814283\flutter_tools_chrome_device.143171fb\Default\Service Worker\Database since it was missing.
-2024/07/31-02:38:05.314 1234 Reusing MANIFEST C:\Users\vecto\AppData\Local\Temp\flutter_tools.24814283\flutter_tools_chrome_device.143171fb\Default\Service Worker\Database/MANIFEST-000001
+2024/07/31-04:05:11.364 3a90 Reusing MANIFEST C:\Users\vecto\AppData\Local\Temp\flutter_tools.bed1a8cd\flutter_tools_chrome_device.86542d8b\Default\Service Worker\Database/MANIFEST-000001
+2024/07/31-04:05:11.365 3a90 Recovering log #3
+2024/07/31-04:05:11.365 3a90 Reusing old log C:\Users\vecto\AppData\Local\Temp\flutter_tools.bed1a8cd\flutter_tools_chrome_device.86542d8b\Default\Service Worker\Database/000003.log 
 =======
-2024/08/01-19:23:46.335 1224 Reusing MANIFEST C:\Users\vecto\AppData\Local\Temp\flutter_tools.c74d2552\flutter_tools_chrome_device.61a696d7\Default\Service Worker\Database/MANIFEST-000001
-2024/08/01-19:23:46.336 1224 Recovering log #3
-2024/08/01-19:23:46.336 1224 Reusing old log C:\Users\vecto\AppData\Local\Temp\flutter_tools.c74d2552\flutter_tools_chrome_device.61a696d7\Default\Service Worker\Database/000003.log 
+2024/08/02-20:29:57.475 868 Reusing MANIFEST C:\Users\vecto\AppData\Local\Temp\flutter_tools.49549708\flutter_tools_chrome_device.f1014313\Default\Service Worker\Database/MANIFEST-000001
+2024/08/02-20:29:57.494 868 Recovering log #3
+2024/08/02-20:29:57.495 868 Reusing old log C:\Users\vecto\AppData\Local\Temp\flutter_tools.49549708\flutter_tools_chrome_device.f1014313\Default\Service Worker\Database/000003.log 
 >>>>>>> Stashed changes

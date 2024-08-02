@@ -1,10 +1,13 @@
 import 'package:fintech_app/core/widgets/space.dart';
+import 'package:fintech_app/features/wallet/data/model/wallet.dart';
 import 'package:flutter/material.dart';
 
 class WalletCard extends StatelessWidget {
   const WalletCard({
     super.key,
+    required this.myWallet,
   });
+  final Wallet myWallet;
 
   @override
   Widget build(BuildContext context) {
@@ -13,14 +16,14 @@ class WalletCard extends StatelessWidget {
         margin: const EdgeInsets.only(right: 15),
         height: 190,
         decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(16), color: Colors.white),
-        child: const Column(
+            borderRadius: BorderRadius.circular(16), color: myWallet.color),
+        child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            TotalMoney(),
-            AcountNum(),
-            Spacer(),
-            ClientInfo(),
+            TotalMoney(myWallet: myWallet),
+            const AcountNum(),
+            const Spacer(),
+            ClientInfo(myWallet: myWallet),
           ],
         ),
       ),
@@ -31,7 +34,9 @@ class WalletCard extends StatelessWidget {
 class TotalMoney extends StatelessWidget {
   const TotalMoney({
     super.key,
+    required this.myWallet,
   });
+  final Wallet myWallet;
 
   @override
   Widget build(BuildContext context) {
@@ -39,13 +44,13 @@ class TotalMoney extends StatelessWidget {
       padding: const EdgeInsets.all(12.0),
       child: Row(
         children: [
-          const Column(
+          Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text('Total Balance',
+              const Text('Total Balance',
                   style: TextStyle(fontSize: 17, color: Colors.black)),
-              Text('\$25,000.40',
-                  style: TextStyle(
+              Text('\$${myWallet.money}',
+                  style: const TextStyle(
                       height: 1.2,
                       fontSize: 30,
                       fontWeight: FontWeight.w500,
@@ -78,7 +83,9 @@ class AcountNum extends StatelessWidget {
 class ClientInfo extends StatelessWidget {
   const ClientInfo({
     super.key,
+    required this.myWallet,
   });
+  final Wallet myWallet;
 
   @override
   Widget build(BuildContext context) {
@@ -91,10 +98,10 @@ class ClientInfo extends StatelessWidget {
               bottomLeft: Radius.circular(16),
               bottomRight: Radius.circular(16)),
           color: Colors.black),
-      child: const Column(
+      child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Row(
+          const Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Text('Name',
@@ -106,9 +113,9 @@ class ClientInfo extends StatelessWidget {
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              Text('Client Name',
-                  style: TextStyle(fontSize: 18, color: Colors.white)),
-              Text('09/23',
+              Text(myWallet.clientName,
+                  style: const TextStyle(fontSize: 18, color: Colors.white)),
+              const Text('09/23',
                   style: TextStyle(fontSize: 17, color: Colors.white)),
             ],
           ),

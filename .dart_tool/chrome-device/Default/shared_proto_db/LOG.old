@@ -1,11 +1,10 @@
 <<<<<<< Updated upstream
-2024/07/31-02:38:05.062 1234 Creating DB C:\Users\vecto\AppData\Local\Temp\flutter_tools.24814283\flutter_tools_chrome_device.143171fb\Default\shared_proto_db since it was missing.
-2024/07/31-02:38:05.074 1234 Reusing MANIFEST C:\Users\vecto\AppData\Local\Temp\flutter_tools.24814283\flutter_tools_chrome_device.143171fb\Default\shared_proto_db/MANIFEST-000001
+2024/07/31-04:05:11.491 45e0 Reusing MANIFEST C:\Users\vecto\AppData\Local\Temp\flutter_tools.bed1a8cd\flutter_tools_chrome_device.86542d8b\Default\shared_proto_db/MANIFEST-000001
+2024/07/31-04:05:11.491 45e0 Recovering log #3
+2024/07/31-04:05:11.492 45e0 Reusing old log C:\Users\vecto\AppData\Local\Temp\flutter_tools.bed1a8cd\flutter_tools_chrome_device.86542d8b\Default\shared_proto_db/000003.log 
 =======
-2024/08/01-19:23:46.455 1224 Reusing MANIFEST C:\Users\vecto\AppData\Local\Temp\flutter_tools.c74d2552\flutter_tools_chrome_device.61a696d7\Default\shared_proto_db/MANIFEST-000001
-2024/08/01-19:23:46.456 1224 Recovering log #3
-2024/08/01-19:23:46.458 1224 Reusing old log C:\Users\vecto\AppData\Local\Temp\flutter_tools.c74d2552\flutter_tools_chrome_device.61a696d7\Default\shared_proto_db/000003.log 
-2024/08/01-19:23:56.791 10c0 Level-0 table #5: started
-2024/08/01-19:23:56.796 10c0 Level-0 table #5: 132811 bytes OK
-2024/08/01-19:23:56.798 10c0 Delete type=0 #3
+2024/08/02-20:29:57.698 37c8 Reusing MANIFEST C:\Users\vecto\AppData\Local\Temp\flutter_tools.49549708\flutter_tools_chrome_device.f1014313\Default\shared_proto_db/MANIFEST-000001
+2024/08/02-20:29:57.698 37c8 Recovering log #4
+2024/08/02-20:29:57.699 37c8 Reusing old log C:\Users\vecto\AppData\Local\Temp\flutter_tools.49549708\flutter_tools_chrome_device.f1014313\Default\shared_proto_db/000004.log 
+2024/08/02-20:29:57.700 37c8 Delete type=0 #3
 >>>>>>> Stashed changes

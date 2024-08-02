@@ -1,3 +1,4 @@
+import 'package:fintech_app/core/utils/helper/data_lists.dart';
 import 'package:fintech_app/core/widgets/space.dart';
 import 'package:fintech_app/features/wallet/presentation/views/widgets/add_wallet_card.dart';
 import 'package:fintech_app/features/wallet/presentation/views/widgets/wallet_card.dart';
@@ -19,10 +20,12 @@ class WalletListView extends StatelessWidget {
             child: SizedBox(
                 height: 190,
                 child: ListView.builder(
-                  itemCount: 3,
+                  itemCount: DataLists.walletList.length,
                   scrollDirection: Axis.horizontal,
                   itemBuilder: (context, index) {
-                    return const WalletCard();
+                    return WalletCard(
+                      myWallet: DataLists.walletList[index],
+                    );
                   },
                 )),
           ),
