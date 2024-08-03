@@ -27,6 +27,7 @@ class WalletListView extends StatelessWidget {
                 child: BlocBuilder<WalletCubit, WalletState>(
                   builder: (context, state) {
                     return ListView.builder(
+                      physics: const BouncingScrollPhysics(),
                       itemCount: DataLists.walletList.length,
                       scrollDirection: Axis.horizontal,
                       itemBuilder: (context, index) {

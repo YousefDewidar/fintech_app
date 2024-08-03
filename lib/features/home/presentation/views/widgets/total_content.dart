@@ -1,5 +1,7 @@
+import 'package:fintech_app/core/navigate%20cubit/navigate_cubit.dart';
 import 'package:fintech_app/core/widgets/space.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 
 class TotalBalanceContent extends StatelessWidget {
   const TotalBalanceContent({
@@ -29,7 +31,9 @@ class TotalBalanceContent extends StatelessWidget {
             const SpaceH(7),
             IconButton(
               padding: EdgeInsets.zero,
-              onPressed: () {},
+              onPressed: () {
+                BlocProvider.of<NavigateCubit>(context).navigateTo(1);
+              },
               icon: const Icon(
                 Icons.arrow_circle_right,
                 color: Colors.white,

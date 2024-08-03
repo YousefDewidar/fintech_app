@@ -12,8 +12,11 @@ class EarnListView extends StatelessWidget {
         child: ListView.builder(
           itemCount: DataLists.earnList.length,
           scrollDirection: Axis.horizontal,
+          physics: const BouncingScrollPhysics(),
           itemBuilder: (context, index) {
-            return  EarnCard(data: DataLists.earnList[index],);
+            return EarnCard(
+              data: DataLists.earnList[index],
+            );
           },
         ));
   }
