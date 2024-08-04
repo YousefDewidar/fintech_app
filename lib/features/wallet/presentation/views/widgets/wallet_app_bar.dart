@@ -14,7 +14,7 @@ class WalletAppBar extends StatelessWidget {
           radius: 20,
           backgroundColor: Colors.amber,
         ),
-        const SpaceH(50),
+        const SpaceH(70),
         const Text(
           'Wallet',
           style: TextStyle(
