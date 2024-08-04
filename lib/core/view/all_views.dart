@@ -2,6 +2,7 @@ import 'package:fintech_app/core/navigate%20cubit/navigate_cubit.dart';
 import 'package:fintech_app/core/navigate%20cubit/navigate_state.dart';
 import 'package:fintech_app/core/utils/constant.dart';
 import 'package:fintech_app/features/home/presentation/views/home_view.dart';
+import 'package:fintech_app/features/profile/presentation/views/profile_view.dart';
 import 'package:fintech_app/features/wallet/presentation/views/wallet_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -18,7 +19,12 @@ class AllViews extends StatelessWidget {
             body: SafeArea(
                 child: IndexedStack(
               index: BlocProvider.of<NavigateCubit>(context).curInd,
-              children: const [HomeView(), WalletView()],
+              children: const [
+                HomeView(),
+                WalletView(),
+                SizedBox(),
+                ProfileView(),
+              ],
             )),
 
             // ==========================
