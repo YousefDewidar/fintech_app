@@ -1,0 +1,13 @@
+#Sun Aug 04 02:45:09 EET 2024
+base.0=Y\:\\FLUTTER\\flutter\\fintech_app\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=Y\:\\FLUTTER\\flutter\\fintech_app\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
+base.2=Y\:\\FLUTTER\\flutter\\fintech_app\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.3=Y\:\\FLUTTER\\flutter\\fintech_app\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
+path.0=classes.dex
+path.1=1/classes.dex
+path.2=0/classes.dex
+path.3=11/classes.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex
+renamed.2=classes3.dex
+renamed.3=classes4.dex

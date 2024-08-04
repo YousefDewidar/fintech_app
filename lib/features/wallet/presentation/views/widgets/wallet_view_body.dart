@@ -1,6 +1,6 @@
-import 'package:fintech_app/core/widgets/hello_row.dart';
 import 'package:fintech_app/core/widgets/space.dart';
 import 'package:fintech_app/features/home/presentation/views/widgets/trans_list_view.dart';
+import 'package:fintech_app/features/wallet/presentation/views/widgets/wallet_app_bar.dart';
 import 'package:fintech_app/features/wallet/presentation/views/widgets/wallet_list_view.dart';
 import 'package:flutter/material.dart';
 
@@ -13,7 +13,7 @@ class WalletViewBody extends StatelessWidget {
       children: [
         Padding(
           padding: EdgeInsets.symmetric(horizontal: 20.0),
-          child: HelloRow(),
+          child: WalletAppBar(),
         ),
         SpaceV(15),
         WalletListView(),

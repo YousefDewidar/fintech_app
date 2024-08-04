@@ -1,0 +1,1 @@
+ Y:\\FLUTTER\\flutter\\fintech_app\\.dart_tool\\flutter_build\\0340cbe52ff7b63e9989192b4e15fac2\\native_assets.yaml: 
